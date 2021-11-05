@@ -1,0 +1,42 @@
+body {
+    color: #fff ;
+    background-color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+canvas {
+    background-color: #fff;
+}
+
+.btns {
+    display: none;
+}
+
+@media screen and (max-width:500px) {
+    body {
+        background-color: #000;
+        overflow: hidden;
+    }
+    
+    canvas {
+        background-color: #fff;
+        width: 450px;
+    }
+    button {
+        background-color: burlywood;
+        border: none;
+        border-radius: 50%;
+        width:  10vh;
+        height: 10vh;
+    }
+    .btns {
+        margin-left: 19vh;
+        font-size: 20px;
+        display: block;
+    }
+    .h1,#h1 {
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 25vh;
+    }
+}
